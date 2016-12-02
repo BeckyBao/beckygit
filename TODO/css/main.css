@@ -1,0 +1,76 @@
+pre {
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+
+
+
+#search_box{
+	
+	background:white;
+	opcity: 0.8; /*不透明度*/
+	text-align:right;
+	margin-top: 6px;
+	
+}
+
+#searchstr{
+	font-size:14px；
+	height:20px;
+	width:150px;
+	
+}
+#search_btn{
+	background: #0b5866;
+	margin-top:6px;
+	border-radius: 2px;
+	border: 0px;
+	width: 100px;
+	line-height: 24px;
+	color:white;
+
+	
+}
+.highlight{
+	
+	background: #ab5d50;
+	color:white;
+}
+.prelight { 
+	background: blue; 
+	color: white; 
+	}
+
+#tip { 
+	background: #ffc;
+	border: 1px solid #999; 
+	width: 110px; 
+	text-align: center;  
+	display: none; 
+	font-size: 12px;
+	}
+	
+.insect-list{
+	
+	margin-top: 22px;
+	
+}
+
+.insect-list .fa-hover a{
+	overflow: hidden;
+	text-overflow:ellipsis;/*用省略号代表被修剪的文本*/
+	white-space:nowrap;/*文本不会换行，文本会在在同一行上继续，直到遇到 <br> 标签为止。*/
+	display:block; /*让对象成为块元素*/
+	color:#222222;
+	line-height:32px;
+	height:32px;
+	padding-left:10px;
+	border-radius:4px;/*圆角*/
+	}
+
+
+.insect-list .fa-hover a:hover{
+	background-color:#1d9d74;
+	color:#ffffff;
+	text-decoration:none;
+	}
